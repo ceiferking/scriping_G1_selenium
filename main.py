@@ -1,15 +1,10 @@
 # import webdriver
-from fileinput import close
-from hashlib import scrypt
 from multiprocessing.resource_sharer import stop
 from turtle import pd
 from bs4 import BeautifulSoup
 from time import sleep
 from selenium import webdriver
-from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
-import re
-import time
 import pandas as pd
 
 # create webdriver object
