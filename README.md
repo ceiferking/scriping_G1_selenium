@@ -18,7 +18,7 @@
 
 ### -Script "rapagemG1.py torna desnecessário o uso do selenium sendo mais eficiente.
 
-#### -Percorre todas paginas do site estipuladas no "range"
+#### -Percorre todas paginas do site estipuladas no "range" por padrão sendo 100.
 
 #### -Obtém as informações de título, subtitulo e link da notícia.
 
