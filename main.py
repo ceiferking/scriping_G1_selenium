@@ -1,25 +1,24 @@
-# import webdriver
-from multiprocessing.resource_sharer import stop
-from turtle import pd
+#importa bibliotecas
 from bs4 import BeautifulSoup
 from time import sleep
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import pandas as pd
 
-# create webdriver object
-#navegador = webdriver.Chrome()
 
+#Carrega configurações do anvegador
 opitions = Options()
+'''
 #oculta navegador
-#opitions.add_argument('==headdless') 
+opitions.add_argument('==headdless') 
 #define tamanho do navegador
-#opitions.add_argument('window-size=1100,800')
+opitions.add_argument('window-size=1100,800')
+'''
 #carrega o web drive do navegador
 navegador = webdriver.Chrome(options=opitions)
 #acessa o site disponibilisado pelo usuario
 
-#recebe link da kabum onde queira extrair dados
+#recebe link
 url = 'https://g1.globo.com/tecnologia'
 
 navegador.maximize_window()
