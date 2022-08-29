@@ -4,16 +4,24 @@
 
 ## == Executar a instalação das bibliotecas necessárias através do "requeriments.txt" ==
 
+### -Script "main.py" Usa o webdrive do seleiun para abir o navegador.
 
+#### -Faz o rolamento da página para o carregamento de um maior número de notícias.
 
-### -Usa o webdrive do seleiun para abir o navegador.
+#### -Espera essas informações serem carregadas.
 
-### -Faz o rolamento da página para o carregamento de um maior número de notícias.
+#### -Obtém as informações de título, subtitulo e link da notícia.
 
-### -Espera essas informações serem carregadas.
+#### -Cria uma lista para receber essas informações.
 
-### -Obtém as informações de título, subtitulo e link da notícia.
+#### -Cria um banco de dados simples para armazenar as informações ordenadas.
 
-### -Cria uma lista para receber essas informações.
+### -Script "rapagemG1.py torna desnecessário o uso do selenium sendo mais eficiente.
 
-### -Cria um banco de dados simples para armazenar as informações ordenadas.
+#### -Percorre todas paginas do site estipuladas no "range"
+
+#### -Obtém as informações de título, subtitulo e link da notícia.
+
+#### -Cria uma lista para receber essas informações.
+
+#### -Cria um banco de dados simples para armazenar as informações ordenadas.
